@@ -1,4 +1,1 @@
-SELECT DATETIME
-    from ANIMAL_INS
-    order by DATETIME desc
-    limit 1
+SELECT MAX(DATETIME) as '시간' from ANIMAL_INS
